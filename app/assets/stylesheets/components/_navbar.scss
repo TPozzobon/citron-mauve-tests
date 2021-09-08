@@ -1,12 +1,36 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar-test {
+  background: grey;
+  height: 60px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.toggle {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.menu {
+  list-style-type: none;
+  position: fixed;
+  top: 60px;
+  left: -100%;
+  width: 16%;
+  height: 100vh;
+  background: grey;
+  transition: all 0.7s ease-in-out;
+  z-index: 999;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.menu li {
+  font-size: 1.2vw;
+  margin-bottom: 10px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid white;
+  width: 10vw;
+}
+
+.menu.active {
+  left: 0;
 }

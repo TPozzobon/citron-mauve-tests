@@ -31,3 +31,5 @@
 
 en:
   hello: "Hello world"
+  home:
+    menu: "I18n works !"
