@@ -8,6 +8,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def create
+    
+  end
+  
+
   def import
     uri = "https://jsonplaceholder.typicode.com/users"
     content = callApi(uri)
